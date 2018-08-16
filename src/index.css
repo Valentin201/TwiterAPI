@@ -1,5 +1,23 @@
+
+html, body {
+	height:100%;
+}
+
 body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
   margin: 0;
   padding: 0;
+  height:100%;
+  width:100%;
   font-family: sans-serif;
+  background-image: url('./Murica.png');
+    -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                 border:3px solid green;
+                  background-repeat:no-repeat;
+
 }

@@ -1,10 +1,19 @@
+
+import * as actionTypes from './actions';
+
 const initialState = {
-    counter: 0
+    timeline: true
 }
 
-const reducer = (state = initialState, action) => {
+const reducer = ( state = initialState, action ) => {
+    switch ( action.type ) {
+        case actionTypes.SWITCH_TIMELINE: return {    
+        	...state,
+                timeline: !state.timeline
 
-    return state;
+            }
+
+        default: return state;
+    }
 };
-
 export default reducer;
