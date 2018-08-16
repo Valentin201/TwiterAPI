@@ -14,7 +14,7 @@ return (
     }}
     options={{
       username: 'HillaryClinton',
-      height: '650',
+      height: '600',
       width: '750'
     }}
     onLoad={() => console.log('Timeline is loaded!')}
